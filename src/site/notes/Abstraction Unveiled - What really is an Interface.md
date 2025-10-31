@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/abstraction-unveiled-what-really-is-an-interface/","title":"Abstraction Unveiled: What really is an Interface?"}
+{"dg-publish":true,"permalink":"/abstraction-unveiled-what-really-is-an-interface/","title":"Abstraction Unveiled: What really is an Interface?","created":"2025-10-30T18:53:08.679-04:00"}
 ---
 
 ### Intro
