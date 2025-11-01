@@ -39,3 +39,6 @@ And now let’s write the logic we’ll need to spawn enemies infinitely:
 Once we have that done, we just write logic to Instantiate the `enemyPrefab` after 5 seconds that we wait in `yield return new WaitForSeconds(5);`. With that, we have a working **SpawnManager** in our game!
 ![coroutine_basics_04.gif](/img/user/images/coroutine_basics_04.gif)
 There we go! We have a working Coroutine in our game! At some point, I’d like to dive deeper into coroutines as I did omit some details in the interest of keeping things simple for beginners. Coroutines are a bit more of an advanced topic, but they are so useful even for beginners I feel the need to explain at least the basic use case for them. At some point, I’ll dive deeper into this cool Unity feature in another article! Stay tuned for that! Good luck!
+
+> [!Note]
+> If you'd like to get into the details of how Coroutines work take a look at my [[Coroutines Deep Dive!\|Coroutines Deep Dive!]] article!
