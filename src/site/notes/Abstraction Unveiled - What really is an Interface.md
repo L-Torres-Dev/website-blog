@@ -75,9 +75,6 @@ Our `floatNode1` is given the value of `3` in its constructor and the `floatNode
 
 With these nodes you can eventually create a `FormulaEvaluator` class that takes a string and parses it into an expression:
 ![Pasted image 20251030190938.png](/img/user/images/Pasted%20image%2020251030190938.png)The details of how `FormulaEvaluator` works is well beyond the scope of this post. In this case I am parsing the "2 * 3 _+_ (3^2)_"_ string and turning it into a tree structure that knows how to evaluate each number and operation in order correctly. So it will first evaluate "3^2" (the '^' symbol represents an exponent) by creating an exponent node object and get `9` (it evaluates 3 squared), then it will evaluate "2 * 3" by creating a multiplication node object and get `6`, and finally it will take the result of both of those and add them using the same `Addnode` object we created before. So `6` + `9` equals `15`. In case you doubt that I actually wrote the implementation of the `FormulaEvaluator` here is a demonstration of it at work:
-
-<img src= "/img/user/images/abstracions_unveiled_01.gif">
-
 ![abstracions_unveiled_01.gif](/img/user/images/abstracions_unveiled_01.gif)
 On the right side, you can even see some of the other **MathExpressionNodes** I created!
 ### Conclusion
